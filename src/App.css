@@ -2,3 +2,74 @@
   font-family: 'Inter', sans-serif;
 }
 
+.header {
+  background-color: #F55A5A;
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  align-items: center;
+}
+
+.header-icon {
+  max-width: 24px;
+  max-height: 24px;
+}
+
+.header p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.card {
+   display: flex;
+   margin: 40px;
+   max-height: 168px;
+}
+
+.card-detail {
+  margin-left: 20px;
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 10px;
+  color: #2B283A;
+  overflow: auto;
+}
+
+.card-img {
+   max-width: 125px;
+   max-height: 168px;
+   border-radius: 5px;
+}
+
+.card-location {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.card-country {
+  margin: 0;
+  letter-spacing: 0.17em;
+}
+
+.card-link {
+  color: #918E9B;
+  padding-left: 15px;
+}
+
+.card-link:hover {
+  color: #2B283A;
+}
+
+.card-name {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  margin-top: 5px;
+}
+
+.card-date {
+  font-weight: 700;
+  line-height: 12px;
+}
